@@ -294,6 +294,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
 /*.single-about-img */
 .single-about-img{position: relative;box-shadow: 0 5px 20px rgba(117,12,18,.30);}
 .portfolio-img{position: relative;}
+
 .single-about-img:before {
     position:  absolute;
     content: " ";
@@ -303,10 +304,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
     height:  100%;
     background: rgba(117,12,18,.10);
 }
+
 .single-about-img img {
     max-width: 500px;
     max-height: 468px;
 }
+
+.portfolio-img img {
+    max-width: 500px;
+    max-height: 468px;
+}
+
 .about-list-icon{
     display: flex;
     justify-content: center;
