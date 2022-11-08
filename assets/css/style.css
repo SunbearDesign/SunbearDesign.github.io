@@ -653,11 +653,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .isotope .item:hover  img{
-    -webkit-transform:scale(1.5);
-    -moz-transform:scale(1.5);
-    -ms-transform:scale(1.5);
-    -o-transform:scale(1.5);
-    transform:scale(1.5);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
 }/*.item img*/
 
 }/*.isotope-overlay*/
