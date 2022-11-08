@@ -104,6 +104,12 @@ html,body{
     position: relative;
     z-index: 9999;
 }
+
+.top-area-studyspacespotter {
+    position: fixed;
+    z-index: 9999;
+}
+
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
     background-color: #fff;
