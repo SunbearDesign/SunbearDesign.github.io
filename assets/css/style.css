@@ -569,7 +569,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: -moz-linear-gradient(left, #8a0a21 0%, #b636ff 100%);
     background: -webkit-linear-gradient(left, #8a0a21 0%,#b636ff 100%);
     background: linear-gradient(to right, #8a0a21 0%,#b636ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a0a21', endColorstr='#b636ff',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a0a21', endColorstr='#8a0a21',GradientType=1 );
     -webkit-transform:scale(0);
     -moz-transform:scale(0);
     -ms-transform:scale(0);
@@ -717,8 +717,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:50px;
     text-transform:capitalize;
     margin-top: 3px;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #8a0a21;
+    border: 1px solid #8a0a21;
     cursor:pointer;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
@@ -819,8 +819,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
+    background:#8a0a21;
+	border:1px solid #8a0a21f;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -831,8 +831,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 #scroll-Top  .return-to-top:hover {
     background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
+    color: #8a0a21;
+	border:1px solid #8a0a21;
 }
 
 #scroll-Top  .return-to-top i{
