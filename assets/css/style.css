@@ -106,7 +106,7 @@ html,body{
 }
 
 .top-area-studyspacespotter {
-    position: fixed;
+    position: static;
     z-index: 9999;
 }
 
