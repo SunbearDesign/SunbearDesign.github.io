@@ -305,14 +305,24 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
     background: rgba(117,12,18,.10);
 }
 
+.portfolio-img:before {
+    position:  absolute;
+    content: " ";
+    top: 0;
+    left:  0;
+    width: 109%;
+    height:  100%;
+    background: rgba(117,12,18,.10);
+}
+
 .single-about-img img {
     max-width: 500px;
     max-height: 468px;
 }
 
 .portfolio-img img {
-    max-width: 500px;
-    max-height: 468px;
+    max-width: 50px;
+    max-height: 46px;
 }
 
 .about-list-icon{
