@@ -293,6 +293,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
 
 /*.single-about-img */
 .single-about-img{position: relative;box-shadow: 0 5px 20px rgba(117,12,18,.30);}
+.portfolio-img{position: relative;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
