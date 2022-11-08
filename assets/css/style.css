@@ -311,8 +311,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
     top: 0;
     left:  0;
     width: 109%;
-    height:  100%;
-    background: rgba(117,12,18,.10);
+    height:  100%;;
 }
 
 .single-about-img img {
@@ -321,8 +320,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
 }
 
 .portfolio-img img {
-    max-width: 50px;
-    max-height: 46px;
+    max-width: 45%;
+    max-height: 468px;
 }
 
 .about-list-icon{
