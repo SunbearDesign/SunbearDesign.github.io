@@ -677,6 +677,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: .5s;
 }
 
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
 /*.isotope-overlay*/
 .isotope-overlay{
     position:absolute;
