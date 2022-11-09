@@ -305,7 +305,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
     background: rgba(117,12,18,.10);
 }
 
-.portfolio-img:before {
+.portfolio-side-img:before {
+    position:  absolute;
+    content: " ";
+    top: 0;
+    left:  0;
+    width: 109%;
+    height:  100%;;
+}
+
+.portfolio-bottom-img:before {
     position:  absolute;
     content: " ";
     top: 0;
@@ -319,9 +328,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
     max-height: 468px;
 }
 
-.portfolio-img img {
-    max-width: 40%;
-    max-height: 468px;
+.portfolio-side-img img {
+    max-width: 500px;
+    max-height: 500px;
+	padding: 10%;
+}
+
+.portfolio-bottom-img img {
+    max-width: 500px;
+    max-height: 500px;
 	padding: 10%;
 }
 
