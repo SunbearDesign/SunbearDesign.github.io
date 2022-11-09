@@ -328,9 +328,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8a0a21;}
 }
 
 .portfolio-side-img img {
-    max-width: 500px;
-    max-height: 500px;
-	padding: 10%;
+    max-width: 100%;
+    max-height: 600px;
+	padding: 1px;
 }
 
 .portfolio-bottom-img img {
