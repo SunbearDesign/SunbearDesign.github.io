@@ -739,9 +739,9 @@ img:hover {
     border-radius:30px;
 }
 
-.prototype	{
-  height: 722px;
-  width: 380px;
+.mobile_prototype	{
+  height: 900px;
+  width: 450px;
 }
 
 }/*.isotope-overlay*/
