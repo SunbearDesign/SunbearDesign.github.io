@@ -695,7 +695,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
 	background: #313131;
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 .button.button-primary:hover,
 a.button.button-primary:hover,
@@ -1245,7 +1245,7 @@ header .logo a {
 }
 .main-navigation li a {
 	display: block;
-	color: #CCCCCC;
+	color: #F2F2F2;
 	width: auto;
 	padding: 15px 0;
 	line-height: 16px;
@@ -1325,7 +1325,7 @@ header .logo a {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #CCCCCC;
+	color: #F2F2F2;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1352,7 +1352,7 @@ header .logo a {
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #CCCCCC;
+	color: #F2F2F2;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position span {
@@ -1373,7 +1373,7 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .button {
-	color: #CCCCCC !important;
+	color: #F2F2F2 !important;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
@@ -1403,7 +1403,7 @@ header .logo a {
 	padding: 0;
 }
 .intro-social li a, .intro-social li a:visited {
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
@@ -1480,7 +1480,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #CCCCCC;
+	background: #F2F2F2;
 	padding-top: 12rem;
 	padding-bottom: 1rem;
 }
@@ -1651,7 +1651,7 @@ header .logo a {
 	background: #313131;
 	border-radius: 50%;
 	text-align: center;
-	color: #CCCCCC;
+	color: #F2F2F2;
 	position: absolute;
 	left: 35%;
 	top: .9rem;
@@ -1780,7 +1780,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #CCCCCC;
+	background: #F2F2F2;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -1831,7 +1831,7 @@ header .logo a {
 }
 
 #portfolio .folio-title {
-	color: #CCCCCC;
+	color: #F2F2F2;
 	font-size: 3.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
@@ -1884,7 +1884,7 @@ header .logo a {
  */
 .popup-modal {
 	max-width: 750px;
-	background: #CCCCCC;
+	background: #F2F2F2;
 	position: relative;
 	margin: 0 auto;
 }
@@ -1928,7 +1928,7 @@ header .logo a {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.2rem;
 	line-height: 6rem;
-	color: #CCCCCC;
+	color: #F2F2F2;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	cursor: pointer;
@@ -2137,7 +2137,7 @@ header .logo a {
 	color: #9E1C34;
 }
 .services-list h3 {
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
@@ -2159,7 +2159,7 @@ header .logo a {
 	margin: 1.2rem .8rem 0 .8rem;
 	border-radius: 50%;
 	display: inline-block;
-	background: #CCCCCC;
+	background: #F2F2F2;
 }
 .owl-theme .owl-controls .owl-page.active span {
 	background: #9E1C34;
@@ -2193,7 +2193,7 @@ header .logo a {
 	color: #000000;
 }
 #stats .stat-count {
-	color: #CCCCCC;
+	color: #F2F2F2;
 	font-size: 3.6rem;
 	margin-top: 1.2rem;
 	margin-bottom: 0;
@@ -2300,7 +2300,7 @@ header .logo a {
 	letter-spacing: .1rem;
 	padding: 0 2rem;
 	margin: 0;
-	color: #CCCCCC;
+	color: #F2F2F2;
 	background: #9E1C34;
 }
 #contact form .form-field label::after {
@@ -2333,7 +2333,7 @@ header .logo a {
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
 	border-color: #9E1C34;
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 #contact textarea {
 	min-height: 20rem;
@@ -2341,7 +2341,7 @@ header .logo a {
 }
 #contact textarea:focus {
 	border-color: #9E1C34;
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 #contact button.submitform {
 	font-size: 1.5rem;
@@ -2353,7 +2353,7 @@ header .logo a {
 	margin-top: 4.8rem;
 	width: 100%;
 	background: #9E1C34;
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
 	background: #cc005f;
@@ -2388,7 +2388,7 @@ header .logo a {
 #submit-loader .text-loader {
 	display: none;
 	font-family: "poppins-bold", sans-serif;
-	color: #CCCCCC;
+	color: #F2F2F2;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
 }
@@ -2412,7 +2412,7 @@ header .logo a {
 }
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 .contact-info h5 {
 	color: #9E1C34;
@@ -2433,7 +2433,7 @@ header .logo a {
 .s-loader > div {
 	width: 1rem;
 	height: 1rem;
-	background-color: #CCCCCC;
+	background-color: #F2F2F2;
 	border-radius: 100%;
 	display: inline-block;
 	margin-right: .9rem;
@@ -2486,7 +2486,7 @@ footer {
 	font-family: "poppins-regular", sans-serif;
 }
 footer a, footer a:visited {
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 footer a:hover, footer a:focus {
 	color: #9E1C34;
@@ -2511,7 +2511,7 @@ footer .footer-social li {
 	padding: 0;
 }
 footer .footer-social li a {
-	color: #CCCCCC;
+	color: #F2F2F2;
 }
 footer .copyright span {
 	display: inline-block;
@@ -2569,7 +2569,7 @@ footer .copyright span:last-child::after {
 	line-height: 6.6rem;
 	text-align: center;
 	background: #cc005f;
-	color: #CCCCCC;
+	color: #F2F2F2;
 	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
