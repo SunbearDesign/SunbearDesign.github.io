@@ -1884,13 +1884,17 @@ header .logo a {
  */
 .popup-modal {
 	max-width: 750px;
-	height: 80rem;
+	max-height: 80rem;
 	background: #F2F2F2;
 	position: relative;
 	margin: 0 auto;
+	overflow: auto;
 }
 .popup-modal .media {
 	position: relative;
+	margin: auto;
+ 	display: block;
+  	max-height: 50rem;
 }
 .popup-modal img {
 	vertical-align: bottom;
