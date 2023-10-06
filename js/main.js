@@ -4,31 +4,6 @@
  *
  * ------------------------------------------------------------------- 
  */ 
-add_action('wp_footer', 'custom_lightbox_script');
-function custom_lightbox_script(){
-?>
-<script type="text/javascript">
-(function($) {
-    function a() {
-      $('body').on('click', '.lightbox-added', function() {
-        if($('.mfp-bg').length >= 1) {
-          $('html').css("overflow-y", "hidden");
-        } 
-      });
-      
-      $('body').on('click', function() {
-        setTimeout( function() {
-          if($('.mfp-bg').length == 0) { 
-            $('html').css("overflow-y", "scroll");
-          }
-        },500);   
-      });
-    }
-  a(); 
-})(jQuery);
-</script>
-<?php
-}
 
 (function($) {
 
