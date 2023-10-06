@@ -4,26 +4,30 @@
  *
  * ------------------------------------------------------------------- 
  */ 
-add_action('wp_footer', 'custom_lightbox_script');
-function custom_lightbox_script(){
+add_action('wp_footer', 'ava_custom_script');
+function ava_custom_script(){
 ?>
 <script type="text/javascript">
 (function($) {
     function a() {
-        $('body').on('click', '.lightbox-added', function() {
+		$('html').addClass('iframe-close');
+        $('body').on('click', '.mfp-iframe', function() {
 			if($('.mfp-bg').length >= 1) {
-				$('html').css("overflow-y", "hidden");
+				$('html').removeClass('iframe-close');
+				$('html').addClass('iframe-open');
 			} 
 		});
 		
 		$('body').on('click', function() {
 			setTimeout( function() {
 				if($('.mfp-bg').length == 0) { 
-					$('html').css("overflow-y", "scroll");
+					$('html').removeClass('iframe-open');
+					$('html').addClass('iframe-close');
 				}
 			},500);		
 		});
-             }
+    }
+	
 	a(); 
 })(jQuery);
 </script>
