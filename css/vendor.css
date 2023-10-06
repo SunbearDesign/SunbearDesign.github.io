@@ -17,6 +17,11 @@
  *	 v1.3.3
  */
 
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-bg {
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
