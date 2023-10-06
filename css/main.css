@@ -65,6 +65,10 @@ html {
 	}
 }
 
+
+html, body {
+	height: 100%;
+
 }
 body {
 	background: #151515;
