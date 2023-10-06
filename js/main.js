@@ -121,7 +121,7 @@
    $('.item-wrap a').magnificPopup({
 
       type:'inline',
-      fixedContentPos: false,
+      /*fixedContentPos: false,*/
       removalDelay: 300,
       showCloseBtn: false,
       mainClass: 'mfp-fade'
