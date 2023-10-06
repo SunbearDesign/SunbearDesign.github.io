@@ -4,35 +4,6 @@
  *
  * ------------------------------------------------------------------- 
  */ 
-add_action('wp_footer', 'ava_custom_script');
-function ava_custom_script(){
-?>
-<script type="text/javascript">
-(function($) {
-    function a() {
-		$('html').addClass('iframe-close');
-        $('body').on('click', '.mfp-iframe', function() {
-			if($('.mfp-bg').length >= 1) {
-				$('html').removeClass('iframe-close');
-				$('html').addClass('iframe-open');
-			} 
-		});
-		
-		$('body').on('click', function() {
-			setTimeout( function() {
-				if($('.mfp-bg').length == 0) { 
-					$('html').removeClass('iframe-open');
-					$('html').addClass('iframe-close');
-				}
-			},500);		
-		});
-    }
-	
-	a(); 
-})(jQuery);
-</script>
-<?php
-}
 
 (function($) {
 
