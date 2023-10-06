@@ -1891,7 +1891,7 @@ header .logo a {
 	background: #F2F2F2;
 	position: relative;
 	margin: auto;
-	overflow: auto;
+	overflow: hidden;
 }
 .popup-modal .media {
 	position: relative;
