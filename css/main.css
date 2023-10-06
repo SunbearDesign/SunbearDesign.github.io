@@ -1883,11 +1883,11 @@ header .logo a {
  * ------------------------------------------------------------------
  */
 .popup-modal {
-	max-width: 750px;
+	max-width: 80rem;
 	max-height: 75rem;
 	background: #F2F2F2;
 	position: relative;
-	margin: 0 auto;
+	margin: auto;
 	overflow: auto;
 }
 .popup-modal .media {
